@@ -6,17 +6,42 @@ ChatBot-AI implements a user-friendly application where users can interact with 
 
 ## Features
 1.**Real-time Feedback on Responses:**<br>
-- Users can like or dislike each AI response using thumbs up/thumbs down buttons.<br>
-- These buttons are hidden until the user hovers over the AI’s response, making the interface clean and engaging.
+ - Users can like or dislike each AI response using thumbs up/thumbs down buttons.<br>
+ - These buttons are hidden until the user hovers over the AI’s response, making the interface clean and engaging.
 
-2. **End-of-Conversation Feedback**:<br>
-- After completing a conversation, users can provide an overall rating, selecting from a 5-point Likert scale or 5-star rating.<br>
-- Users can also leave additional subjective feedback to capture more nuanced opinions.
+2.**End-of-Conversation Feedback**:<br>
+ - After completing a conversation, users can provide an overall rating, selecting from a 5-point Likert scale or 5-star rating.<br>
+ - Users can also leave additional subjective feedback to capture more nuanced opinions.
 
 3.**Conversation Management**:<br>
-- Users can engage in multiple conversations, each saved and accessible from a side/top bar panel.<br>
-- Conversations can be revisited, showing both the chat history and associated feedback.<br>
+ - Users can engage in multiple conversations, each saved and accessible from a side/top bar panel.<br>
+ - Conversations can be revisited, showing both the chat history and associated feedback.<br>
 
 4.**Comprehensive Feedback Overview**:<br>
-- A dedicated view allows users to see feedback across all conversations.<br>
-- Feedback can be filtered and sorted by rating, providing an easy-to-navigate summary.
+ - A dedicated view allows users to see feedback across all conversations.<br>
+ - Feedback can be filtered and sorted by rating, providing an easy-to-navigate summary.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Khushboo0820/ChatBotAI.git
+   cd hatBotAI
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+4. Open your browser and navigate to `http://localhost:3000`.
