@@ -21,6 +21,9 @@ ChatBot-AI implements a user-friendly application where users can interact with 
  - A dedicated view allows users to see feedback across all conversations.<br>
  - Feedback can be filtered and sorted by rating, providing an easy-to-navigate summary.
 
+5.**Light/Dark Mode Toggle**: 
+ - Users can switch between light and dark themes for improved readability and comfort.
+
 ## Tech Stack
 
 - **Frontend**: ReactJS
@@ -59,12 +62,11 @@ To run this project locally, follow these steps:
 
 ## Usage
 
-1.**Starting a Conversation**: Click "Start New Conversation" on the main screen.<br>
-2.**Interacting with the AI:** Type a question and submit; a simulated AI response will appear from the JSON file.<br>
-3.**Providing Feedback:** Thumbs up/down: Hover over the AI response to access and click thumbs up/down.<br>
-4.**Rating and Feedback:** At the end of the conversation, provide a rating and subjective feedback.<br>
-5.**Viewing Past Conversations:** Access past conversations from the sidebar to review responses and feedback.<br>
-6.**Feedback Summary:** Go to the "Feedback Summary" tab to view, filter, and sort all feedback.<br>
+1. **Starting a Conversation**: Click "Start New Conversation" on the main screen.<br>
+2. **Interacting with the AI:** Type a question and submit; a simulated AI response will appear from the JSON file.<br>
+3. **Providing Feedback:** - Thumbs up/down: Hover over the AI response to access and click thumbs up/down.<br> -**Rating and Feedback:** At the end of the conversation, provide a rating and subjective feedback.<br>
+5. **Viewing Past Conversations:** Access past conversations from the sidebar to review responses and feedback.<br>
+6. **Feedback Summary:** Go to the "Feedback Summary" tab to view, filter, and sort all feedback.<br>
 
 ## Future Enhancements
 
