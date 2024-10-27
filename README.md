@@ -59,18 +59,18 @@ To run this project locally, follow these steps:
 
 ## Usage
 
-1.**Starting a Conversation**: Click "Start New Conversation" on the main screen.
-2.**Interacting with the AI:** Type a question and submit; a simulated AI response will appear from the JSON file.
-3.**Providing Feedback:** Thumbs up/down: Hover over the AI response to access and click thumbs up/down.
-4.**Rating and Feedback:** At the end of the conversation, provide a rating and subjective feedback.
-5.**Viewing Past Conversations:** Access past conversations from the sidebar to review responses and feedback.
-6.**Feedback Summary:** Go to the "Feedback Summary" tab to view, filter, and sort all feedback.
+1.**Starting a Conversation**: Click "Start New Conversation" on the main screen.<br>
+2.**Interacting with the AI:** Type a question and submit; a simulated AI response will appear from the JSON file.<br>
+3.**Providing Feedback:** Thumbs up/down: Hover over the AI response to access and click thumbs up/down.<br>
+4.**Rating and Feedback:** At the end of the conversation, provide a rating and subjective feedback.<br>
+5.**Viewing Past Conversations:** Access past conversations from the sidebar to review responses and feedback.<br>
+6.**Feedback Summary:** Go to the "Feedback Summary" tab to view, filter, and sort all feedback.<br>
 
 ## Future Enhancements
 
-1.**Real AI Integration:** Replace the mock JSON data with a live API connection to an AI service.
-2.**User Authentication:** Add user accounts for saving conversation history across sessions.
-3.**Export Feedback:** Allow users to export feedback data to CSV or PDF for analysis.
+1.**Real AI Integration:** Replace the mock JSON data with a live API connection to an AI service.<br>
+2.**User Authentication:** Add user accounts for saving conversation history across sessions.<br>
+3.**Export Feedback:** Allow users to export feedback data to CSV or PDF for analysis.<br>
 4.**Enhanced Filtering:** Enable filtering by specific keywords or feedback sentiment (e.g., positive, negative).
 
 ## Contributing
