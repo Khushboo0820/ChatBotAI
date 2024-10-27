@@ -5,7 +5,7 @@ import ChatInput from "../../components/ChatInput/ChatInput";
 import ChattingCard from "../../components/ChattingCard/ChattingCard";
 import FeedbackModal from "../../components/FeedbackModal/FeedbackModal";
 import { useEffect, useRef, useState } from "react";
-import data from "../../Data/SampleDta.json";
+import data from "../../aidata/SampleDta.json";
 import { useOutletContext } from "react-router-dom";
 import Navbar from "../../components/Navbar/Navbar";
 import { ThemeContext } from "../../theme/ThemeContext";
