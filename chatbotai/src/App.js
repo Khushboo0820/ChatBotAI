@@ -1,27 +1,30 @@
-import {useState ,useeffect,useMemo} from "react";
-import './App.css';
-//import Sidebar from "./components/Sidebar/Sidebar";
-//import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import { ThemeContext } from "./theme/ThemeContext";
+import { useState, useEffect } from "react";
+import Sidebar from "./components/Sidebar/Sidebar";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import * as React from "react";
+import CssBaseline from "@mui/material/CssBaseline";
+import { getThemePallete } from "./theme/ThemePallete";
 import { Grid } from "@mui/material";
-//import Input from "./components/Input";
 
 function App() {
   const [mode, setMode] = useState(localStorage.getItem("theme") || "light");
   const [chat, setChat] = useState([]);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // //create theme
-  // const theme = React.useMemo(() => createTheme(getThemePallete(mode)), [mode]);
+  //create theme
+  const theme = React.useMemo(() => createTheme(getThemePallete(mode)), [mode]);
 
-  // //save theme mode in localstorage
-  // useEffect(() => {
-  //   localStorage.setItem("theme", mode);
-  // }, [mode]);
+  //save theme mode in localstorage
+  useEffect(() => {
+    localStorage.setItem("theme", mode);
+  }, [mode]);
 
   return (
-    // <ThemeContext.Provider value={{ mode: mode, setMode: setMode }}>
-    //   <ThemeProvider theme={theme}>
-    //     <CssBaseline />
+    <ThemeContext.Provider value={{ mode: mode, setMode: setMode }}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
 
         <Grid
           container
@@ -47,20 +50,20 @@ function App() {
             zIndex={{ xs: 9999, md: 1 }}
             boxShadow={{ xs: menuOpen ? 10 : 0, md: 0 }}
           >
-            {/* <Sidebar setChat={setChat} closeMenu={() => setMenuOpen(false)} /> */}
+            <Sidebar setChat={setChat} closeMenu={() => setMenuOpen(false)} />
           </Grid>
           <Grid item xs={12} md={9.5}>
-            {/* <Outlet
+            <Outlet
               context={{
                 chat: chat,
                 setChat: setChat,
                 handleMobileMenu: setMenuOpen,
               }}
-            /> */}
+            />
           </Grid>
         </Grid>
-    //   </ThemeProvider>
-    // </ThemeContext.Provider>
+      </ThemeProvider>
+    </ThemeContext.Provider>
   );
 }
 
