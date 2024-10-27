@@ -43,7 +43,7 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/Khushboo0820/ChatBotAI.git
-   cd hatBotAI
+   cd chatbotai
    ```
 
 2. Install dependencies:
