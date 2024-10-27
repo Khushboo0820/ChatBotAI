@@ -21,6 +21,17 @@ ChatBot-AI implements a user-friendly application where users can interact with 
  - A dedicated view allows users to see feedback across all conversations.<br>
  - Feedback can be filtered and sorted by rating, providing an easy-to-navigate summary.
 
+## Tech Stack
+
+- **Frontend**: ReactJS
+- **UI Library**: Material-UI
+- **Routing**: React Router
+- **State Management**: React State / Context API
+
+## Getting Started
+### Prerequisites
+- **Node.js:** Ensure Node.js and npm are installed on your system.
+
 ## Installation
 
 To run this project locally, follow these steps:
@@ -45,3 +56,22 @@ To run this project locally, follow these steps:
    ```
 
 4. Open your browser and navigate to `http://localhost:3000`.
+
+## Usage
+
+1.**Starting a Conversation**: Click "Start New Conversation" on the main screen.
+2.**Interacting with the AI:** Type a question and submit; a simulated AI response will appear from the JSON file.
+3.**Providing Feedback:** Thumbs up/down: Hover over the AI response to access and click thumbs up/down.
+4.**Rating and Feedback:** At the end of the conversation, provide a rating and subjective feedback.
+5.**Viewing Past Conversations:** Access past conversations from the sidebar to review responses and feedback.
+6.**Feedback Summary:** Go to the "Feedback Summary" tab to view, filter, and sort all feedback.
+
+## Future Enhancements
+
+1.**Real AI Integration:** Replace the mock JSON data with a live API connection to an AI service.
+2.**User Authentication:** Add user accounts for saving conversation history across sessions.
+3.**Export Feedback:** Allow users to export feedback data to CSV or PDF for analysis.
+4.**Enhanced Filtering:** Enable filtering by specific keywords or feedback sentiment (e.g., positive, negative).
+
+## Contributing
+If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
